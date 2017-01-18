@@ -13,16 +13,16 @@ window.onload = function() {
     //definición de eventos
     //mostrar menú móvil
     document.getElementById("showm").onclick = function() {
-        document.getElementsByClassName("c")[0].style.display = "block";
-        stop();
-    }
-    //ocultar menú móvil
+            document.getElementsByClassName("c")[0].style.display = "block";
+            stop();
+        }
+        //ocultar menú móvil
     document.getElementById("hidem").onclick = function() {
-        document.getElementsByClassName("c")[0].style.display = "none";
-        start();
-    }
-    //encender/apagar el motor al hacer click en la pantalla
-    //encender/apagar al apretar/soltar una tecla
+            document.getElementsByClassName("c")[0].style.display = "none";
+            start();
+        }
+        //encender/apagar el motor al hacer click en la pantalla
+        //encender/apagar al apretar/soltar una tecla
     document.onkeydown = motorOn;
     document.onkeyup = motorOff;
 
@@ -102,7 +102,7 @@ function mostrarAyuda() {
     document.getElementById("ayuda").style.display = "block";
     document.getElementById("acerca").style.display = "none";
     stop();
-	playing=false;
+    playing = false;
 }
 
 function ocultarAyuda() {
@@ -114,7 +114,7 @@ function mostrarAcerca() {
     document.getElementById("acerca").style.display = "block";
     document.getElementById("ayuda").style.display = "none";
     stop();
-	playing=false;
+    playing = false;
 }
 
 function ocultarAcerca() {
