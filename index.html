@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+      <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+      <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+      <script src="js/js.js"></script>
+   </head>
+   <body>
+      <div id="ayuda">
+         <strong>INSTRUCCIONES</strong>
+         <p>Se tiene que aterrizar la nave sobre la luna a una velocidad moderada.</p>
+		 <p>Para activar el motor de la nave pulsa la tecla "espacio".</p>
+         <a href="#" onclick="ocultarAyuda();"><button class="aceptar" align=center>Aceptar</button></a>
+      </div>
+      <div id="win">
+         <strong>Win</strong>
+         <p>¡Muy bien! El aterrizaje ha sido todo un éxito.</p>
+         <a href="#" onclick="ocultarWin();"><button class="aceptar" align=center>Aceptar</button></a>
+      </div>
+      <div id="gameover">
+         <strong>GameOver</strong>
+         <p>Perdiste, un aterrizaje penoso.</p>
+         <p>Prueba otra vez.</p>
+         <a href="#" onclick="ocultarOver();"><button class="aceptar" align=center>Aceptar</button></a>
+      </div>
+      <div id="acerca">
+         <strong>Acerca de</strong>
+         <p>Creación, edición y produccion por Jose Jimeno</p>
+         <a href="#" onclick="ocultarAcerca();"><button class="aceptar" align=center>Aceptar</button></a>
+      </div>
+      <div id="nave">
+         <figure>
+            <img id="naven" src="img/nave.png" alt="nave">
+            <img id ="fuego" src="img/fuego.png" alt="fuego">
+            <img id ="dep" src="img/dep.gif" alt="dep">
+         </figure>
+      </div>
+      <div class="a">
+         <div id="showm"><img src="img/config.png" alt="config"></div>
+         <ul id="cpanel">
+            <li><span id="run">Velocidad:</span> <span id="velocidad">100</span> m/s</li>
+            <li><span id="run">Fuel:</span> <span id="fuel">100</span> l</li>
+            <li><span id="run">Altura:</span> <span id="altura">70</span> m</li>
+         </ul>
+      </div>
+      <div class="b"></div>
+      <div class="c">
+         <div id="hidem"></div>
+         <ul id="menu">
+            <li><a href="#" onclick="reiniciarJuego();"><img id="play" src="img/play.png" alt="play"></li>
+            </a>
+            <li><a href="#" onclick="mostrarAyuda();"><img id="help" src="img/help.png" alt="help"></li>
+            </a>
+            <li><a href="#" onclick="mostrarAcerca();"><img id="acercab" src="img/acerca.png" alt="acerca"></li>
+            </a>
+         </ul>
+      </div>
+      <div class="d"><img class="moon" src="img/moon.png" alt="moon"></div>
+   </body>
+</html>
