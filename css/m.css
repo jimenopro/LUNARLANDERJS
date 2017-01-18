@@ -1,99 +1,162 @@
-
-
-body,html{height:100%;padding:0px;margin:0px;}
-.a{width:100%;height:90px;overflow:hidden;position:fixed;top:0px}
-.b{width:100%;height:100%;overflow:hidden;}
-.c{position:fixed;top:0px;bottom:0px;left:0px;right:0px;display:none;z-index:4}
-.d{position:fixed;bottom:0px;height:30%;width:100%;}
-#cpanel{}
-#hidem,#showm{float:right;z-index:5;}
+body,
+html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.a {
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px
+}
+.b {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.c {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+    z-index: 4
+}
+.d {
+    position: fixed;
+    bottom: 0px;
+    height: 30%;
+    width: 100%;
+}
+#cpanel {} #hidem,
+#showm {
+    float: right;
+    z-index: 5;
+}
 body {
-height:100%;
-margin:0px;
-background-image: url(../img/background.png);
-background-size: cover;
-position: static;
+    height: 100%;
+    margin: 0px;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    position: static;
 }
-#velocidad{color: white;}
-#fuel{color: white;}
-#altura{color: white;}
-#run{color:white;}
-img.moon{position:absolute;width:100%;height:100%;}
-#play{position:absolute;top:5%;right:5%;}
-#help{position:absolute;top:11%;right:5%;z-index:5;}
-#acercab{position:absolute;top:17%;right:5%;z-index:5;}
-#menu.img:hover{font-size: 150%;}
-#ayuda{
-position: fixed;
-top: 40%;
-left: 20%;
-display:none;
-font-family:Comic Sans MS;
-color:white;
-border:2px solid #FFFFFF;
-width: 60%;
-z-index:5;}
-#acerca{
-position: fixed;
-top: 40%;
-left: 20%;
-font-family:Comic Sans MS;
-color:white;
-border:2px solid #FFFFFF;
-width: 60%;
-z-index:5;
-display:none;}
-#nave{
-text-align:center;
-position:fixed;
-top:10%;
-width:100%;
-height:20%;
-z-index: 3;}
-#naven{
-height:10%;
-width: 10%;
-display: block;
-margin: auto;}
-#fuego{
-height:10%;
-width: 10%;
-display: none;
-margin: auto;
+#velocidad {
+    color: white;
 }
-#menu img{
-z-index: 4;
+#fuel {
+    color: white;
 }
-#dep{
-height: 40%;
-width: 10%;
-display: none;
-margin: auto;
+#altura {
+    color: white;
 }
-#gameover{
-position: fixed;
-top: 30%;
-left: 30%;
-font-family:Comic Sans MS;
-color:white;
-border:2px solid #FFFFFF;
-width: 30%;
-z-index:4;
-display:none;}
-#win{
-position: fixed;
-top: 30%;
-left: 30%;
-font-family:Comic Sans MS;
-color:white;
-border:2px solid #FFFFFF;
-width: 30%;
-z-index:4;
-display:none;}
-#menu{
-z-index:5;}
-#cpanel{
-list-style-type:none;
-color:white;
+#run {
+    color: white;
 }
-
+img.moon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#play {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+#help {
+    position: absolute;
+    top: 11%;
+    right: 5%;
+    z-index: 5;
+}
+#acercab {
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    z-index: 5;
+}
+#menu.img:hover {
+    font-size: 150%;
+}
+#ayuda {
+    position: fixed;
+    top: 40%;
+    left: 20%;
+    display: none;
+    font-family: Comic Sans MS;
+    color: white;
+    border: 2px solid #FFFFFF;
+    width: 60%;
+    z-index: 5;
+}
+#acerca {
+    position: fixed;
+    top: 40%;
+    left: 20%;
+    font-family: Comic Sans MS;
+    color: white;
+    border: 2px solid #FFFFFF;
+    width: 60%;
+    z-index: 5;
+    display: none;
+}
+#nave {
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    height: 20%;
+    z-index: 3;
+}
+#naven {
+    height: 10%;
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+#fuego {
+    height: 10%;
+    width: 10%;
+    display: none;
+    margin: auto;
+}
+#menu img {
+    z-index: 4;
+}
+#dep {
+    height: 40%;
+    width: 10%;
+    display: none;
+    margin: auto;
+}
+#gameover {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    font-family: Comic Sans MS;
+    color: white;
+    border: 2px solid #FFFFFF;
+    width: 30%;
+    z-index: 4;
+    display: none;
+}
+#win {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    font-family: Comic Sans MS;
+    color: white;
+    border: 2px solid #FFFFFF;
+    width: 30%;
+    z-index: 4;
+    display: none;
+}
+#menu {
+    z-index: 5;
+}
+#cpanel {
+    list-style-type: none;
+    color: white;
+}
