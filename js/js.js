@@ -15,6 +15,7 @@ window.onload = function() {
     document.getElementById("showm").onclick = function() {
             document.getElementsByClassName("c")[0].style.display = "block";
             stop();
+            playing = false;
         }
         //ocultar menú móvil
     document.getElementById("hidem").onclick = function() {
