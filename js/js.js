@@ -23,6 +23,14 @@ window.onload = function() {
         }
         //encender/apagar el motor al hacer click en la pantalla
         //encender/apagar al apretar/soltar una tecla
+    document.onclick = function () {
+ 	  if (a==g){
+  		motorOn();
+ 	  } else {
+  		motorOff();
+ 	  }
+}
+    
     document.onkeydown = motorOn;
     document.onkeyup = motorOff;
 
