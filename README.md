@@ -6,7 +6,7 @@
 
 ·Aspecto de la nave cambiado (a nave con fuego) al apretar una tecla.
 
-·Cuando apretas una tecla y se cambia a nave con fuego, se vacía el tanque de gasolina.
+·Cuando apretas una tecla (o das click con el raton o click en el movil) y se cambia a nave con fuego, se vacía el tanque de gasolina.
 
 ·Al aterrizar la nave, se compara la velocidad a la que aterriza para ver si la velocidad umbral es inferior al valor umbral de 5m/s. Si ganas sale un menú felicitandote por tu victoria y cuando pierdes sale un menú de GameOver, si apretas la tecla Aceptar se reinicia el juego.
 
